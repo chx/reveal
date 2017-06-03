@@ -1,0 +1,10 @@
+reveal.overview:
+  path: '/node/{node}/reveal'
+  defaults:
+    _controller: '\Drupal\reveal\Controller\RevealController::overview'
+    _title: Reveal matrix
+  requirements:
+    _access_node_revision: 'view'
+  options:
+    _admin_route: TRUE
+

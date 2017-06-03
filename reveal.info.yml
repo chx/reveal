@@ -1,0 +1,5 @@
+name: Reveal
+type: module
+description: Node admin screen for viewing, diffing and picking revisions of translations
+core: 8.x
+package: Multilingual

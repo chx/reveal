@@ -1,0 +1,4 @@
+reveal.overview:
+  version: 1.x
+  js:
+    js/reveal.js: {}

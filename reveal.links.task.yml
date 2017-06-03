@@ -1,0 +1,4 @@
+reveal.overview:
+  route_name: reveal.overview
+  base_route: entity.node.canonical
+  title: Reveal
