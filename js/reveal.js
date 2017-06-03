@@ -22,9 +22,9 @@
       var right = $('input[name=radios_right_' + langcode + ']:checked').val();
       if (left && right) {
         var location = window.location.href.replace(/[#?].*$/, '');
-        Drupal.ajax.instances.forEach(function (element) {
-          if ($(element.element).data('reveal-langcode') === langcode) {
-            element.options.url = location + '/diff/' + langcode + '/' + left + '/' + right;
+        Drupal.ajax.instances.forEach(function (ajax) {
+          if ($(ajax.element).data('reveal-langcode') === langcode) {
+            ajax.options.url = location + '/diff/' + langcode + '/' + left + '/' + right;
           }
         });
       }
